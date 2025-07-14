@@ -6,7 +6,7 @@ from typing import Literal, Sequence
 
 from tqdm import tqdm
 
-from .agent_deepseek import Agent
+from .agent_mify import Agent
 from .i18n import local_prompts
 from .utils import (
     USE_TQDM,

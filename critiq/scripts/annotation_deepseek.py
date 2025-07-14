@@ -3,8 +3,8 @@ import os
 from argparse import ArgumentParser
 from pathlib import Path
 
-from critiq.workflow_deepseek import Workflow
-from critiq.evaluator_deepseek import PairEvaluator, ZeroOneEvaluator
+from CritiQ.my_CritiQ.critiq.workflow_mify import Workflow
+from CritiQ.my_CritiQ.critiq.evaluator_mify import PairEvaluator, ZeroOneEvaluator
 from openai import OpenAI  # 使用标准 OpenAI 客户端
 
 # deepseek

@@ -9,8 +9,8 @@ from typing import Any, Literal, Sequence
 from prettytable import PrettyTable
 from tqdm import tqdm
 
-from .agent_deepseek import Agent
-from .evaluator_deepseek import PairEvaluator, ZeroOneEvaluator, get_evaluator_cls_from_dataset
+from .agent_mify import Agent
+from .evaluator_mify import PairEvaluator, ZeroOneEvaluator, get_evaluator_cls_from_dataset
 from .i18n import local_prompts
 from .utils import (
     MANAGER_MAX_CONCURRENT,
