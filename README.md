@@ -7,6 +7,7 @@
 <!-- - 
 - **Upcoming**: 🤗 We will release the knowledge base for *CritiQ Flow* on Hugging Face Hub.
 - **Upcoming**: 🤗 We will released the CritiQ Scorers for [code](https://huggingface.co/KYLN24/CritiQ-Scorer-Code), [math](https://huggingface.co/KYLN24/CritiQ-Scorer-Math), and [logic](https://huggingface.co/KYLN24/CritiQ-Scorer-Logic) on Hugging Face Hub. -->
+- 原始代码来源于 [CritiQ](https://github.com/KYLN24/CritiQ)，本项目在此基础上添加了对千问和豆包的调用，以及对mify的调用。
 
 - **2025-05-16**: 🎉 Our paper has been accepted to the main conference of **ACL 2025**.
 - **2025-03-07**: 🛠️ We release the Python implementation of *CritiQ* on GitHub.
