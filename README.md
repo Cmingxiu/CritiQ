@@ -45,12 +45,13 @@ CritiQ/
 │   ├── agent.py # 本地模型和cloudml api调用
 │   ├── critiq_excel.py # crtiq结果转为表格
 │   ├── create_dataset.py # 表格数据到数据集建立
+│   ├── crit.txt # 一些标准样例
 │   ├── critiq_select_content.py # 筛选翻译模型的训练数据
 │   ├── critiq_select_soundbox.py # 筛选翻译模型的训练数据
 │   ├── evaluator_mify.py # mify的评估流程
 │   ├── evaluator.py # 本地和cloudml的评估流程
 │   ├── i18n.py  # promote配置文件
-│   ├── crit.txt # 一些标准样例
+│   ├── json_add.py # 将code=0的新增数据添加到code=1的目录下
 │   ├── utils.py # 一些判断函数
 │   ├── workflow_mify.py # mify标准更新流程
 └── └── workflow.py # 本地模型和clouml标准更新流程
