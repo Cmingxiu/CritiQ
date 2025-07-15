@@ -22,7 +22,9 @@ git clone https://github.com/Cmingxiu/CritiQ.git
 cd CritiQ
 pip install -e ".[vllm,train]"
 ```
+
 ### 文件说明
+
 ```bash
 CritiQ/
 │
@@ -45,8 +47,10 @@ CritiQ/
 │   ├── agent.py # 本地模型和cloudml api调用
 │   ├── critiq_excel.py # crtiq结果转为表格
 │   ├── create_dataset.py # 表格数据到数据集建立
+│   ├── create_testdataset_jsonl.py #从jsonl文件中建立评测集，方言与普通话一致的单独保存
 │   ├── crit.txt # 一些标准样例
 │   ├── critiq_select_content.py # 筛选翻译模型的训练数据
+│   ├── critiq_select_jsonl.py # 多个jsonl和一致的jsonl文件筛选翻译模型的训练数据
 │   ├── critiq_select_soundbox.py # 筛选翻译模型的训练数据
 │   ├── evaluator_mify.py # mify的评估流程
 │   ├── evaluator.py # 本地和cloudml的评估流程

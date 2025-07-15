@@ -18,7 +18,7 @@ doubao_APP_KEYS = [
 
 # qwen 3
 qwen_APP_KEYS =[
-    "Bearer app-FlExJjoQFNLt",
+    "Bearer app-FlExJjoQFNLtxxxxxxxxxxxxx",
     
 ]
 
