@@ -56,6 +56,7 @@ CritiQ/
 │   ├── evaluator.py # 本地和cloudml的评估流程
 │   ├── i18n.py  # promote配置文件
 │   ├── json_add.py # 将code=0的新增数据添加到code=1的目录下
+│   ├── select_jsonl.py # 筛选翻译模型所有的训练集，作为critiq的评测集
 │   ├── utils.py # 一些判断函数
 │   ├── workflow_mify.py # mify标准更新流程
 └── └── workflow.py # 本地模型和clouml标准更新流程
